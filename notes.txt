@@ -1,0 +1,89 @@
+why python ? 
+
+easy 
+expressive 
+line by line 
+modules 
+open source - large community
+HL
+OOP POP 
+-------
+
+variable -> it is used to store values 
+data type -> indicator -> what type of data you are going to store 
+
+int a;
+float v; 
+
+
+variable -> Object -> value 
+identifiers -> vairable function class object 
+
+conventions ->
+    class ->  Employee 
+              TempEmployee 
+    method -> add() 
+              addSalary()
+    variable -> salary 
+                totalSalary  
+    private variable -> 
+
+
+--------------------------------------------
+
+casting -> converting your variable into 1 type to another type 
+
+int() -> data -> integer 
+
+int(x) -> x is converted into integer 
+
+float() 
+str() 
+
+
+
+take three numbers from user and perform 
+addition sub and multiplication 
+
+
+
+1 addition
+2 sub
+3 multiplication
+
+enter your choice 
+
+1
+
+
+
+take a number from user and check 
+is positive or negative 
+
+if num > 0:
+    print("num is +")
+elif num < 0:
+    print("num is - ")
+else:
+    print("num is 0")
+
+
+if a>b:
+    print("A is max")
+else:
+    print("B is max")
+
+--------------------------------------------------------
+comments in pytho ? 
+
+single line comments -> # 
+multiline -> 
+        """ 
+            multiline comment 
+
+        """
+
+        '''
+            multiline comment 
+        '''
+
