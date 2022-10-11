@@ -1,0 +1,41 @@
+python -> 
+
+Guido Van Rossum -> founder 
+
+
+ABC Lang. [ SET Lang ] Math
+
+
+1991 -> python 
+
+Monty [Python]'s Flying Circus
+
+------------------------------------------------------
+
+python 2 => 2000
+
+python 3 => 2008  2013 -> py2 	
+------------------------------------------------------
+
+.c .cpp .java .py 
+
+
+eng -> H.L -> system -> L.L -> Translator 
+
+compiler 
+interpreter 
+compiler+interpreter 
+
+python -> interpreter 
+
+
+----------------------------------------------------
+
+
+
+
+
+
+
+
+ 
