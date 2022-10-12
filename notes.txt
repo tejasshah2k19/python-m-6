@@ -201,4 +201,81 @@ for while => terminate -> conidtion False
 -----------------------------------------------------------------------------
 
 
+function -> collection of Statement(s) or instruction(s) or block of code 
+            which executes line by line and give some output. 
+        ->  re-usablity , modularity     
+
+add->
+    a = input 
+    b = input 
+    c = a+b  
+
+1) in built - 
+
+        input()
+        str() int() float() 
+        print() 
+
+2) user define - 
+        def 
+
+
+    def functionName(argument):
+        body - 
+
+        return ; 
+
+#keyword argument
+#default argument
+#varags 
+
+
+
+
+#keyword argument 
+def printMe(name,city,pincode):
+    print("name => ",name)
+    print("city => ",city)
+    print("Pincode => ",pincode)
+
+
+printMe("ram","ayodhya",380015)
+printMe(pincode=12345,name="laxman",city="Ayodhya")
+
+
+#default argument 
+
+def sqr(num=0):
+    print("Sqr => ",num*num)
+
+def add(a,b=2,c,d): ==> Invalid 
+    once we add default argument then rest of all argument must have 
+    default argument 
+
+
+def add(a,b=2,c=3,d=2):
+    print(a+b+c+d)
+
+sqr(5) # num => 5 
+sqr() # num => 0 
+
+print("hi")
+print("hellow",end="\t")
+
+add(a=1,c=2,d=3)
+add(1,3,4)
+
+
+#create one function max that accept three arguments and return
+max from three args. 
+now use that max num in oddEven function that return 1 if number 
+is odd and 0 if number is even. 
+
+
+
+
+
+
+
+
 

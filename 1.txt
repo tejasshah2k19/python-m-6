@@ -30,7 +30,24 @@ python -> interpreter
 
 
 ----------------------------------------------------
+create calc  having add() sub() mul() 
+menu driven 
 
+    1 add 
+    2 sub 
+    3 mul 
+
+------------------------------------------------------
+
+python can access argument with their name 
+
+#keyword argument 
+
+def add(a,b):
+    print(a+b)
+
+
+add(b=20,a=30)
 
 
 
