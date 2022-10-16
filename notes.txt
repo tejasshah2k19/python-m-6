@@ -271,7 +271,13 @@ max from three args.
 now use that max num in oddEven function that return 1 if number 
 is odd and 0 if number is even. 
 
+--------------------------------------------------------------
 
+1) string palindrome 
+2) royal EduCation ->swapCase - > ROYAL eDUcATION 
+3) RoyalEducation -> rotate 3 -> alEducationRoy 
+                     rotate 1 -> oyalEducationR 
+                     
 
 
 
