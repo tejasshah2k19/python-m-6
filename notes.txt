@@ -280,7 +280,34 @@ is odd and 0 if number is even.
                      
 
 
+--------------------------------------------------------------------
+5 , 15 , 50  => 
 
+python sequence class. 
+
+six sequence in python. 
+
+list and tuple 
+
+#how to write custom sort in python for list 
+
+
+
+list -> this is the most used data type in python , it stores data item with comma separated between 
+        square brackets. 
+
+        no size 
+
+
+ 
+List:-> 
+
+    1)  take n numbers from user and find how many palindrome number present in list 
+    2)  now remove duplicates from above list 
+    3)  take n names from user and sort in ascending order , do not conside case , case insensitive 
+        Ram shyam Shyam laxman
+        sort -> Ram Shyam shyam laxman 
+        case insensitive -> laxman Ram shyam Shyam 
 
 
 

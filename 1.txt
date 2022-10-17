@@ -50,9 +50,23 @@ def add(a,b):
 add(b=20,a=30)
 
 
+--------------------------------------------------------------------
+5 , 15 , 50  => 
+
+python sequence class. 
+
+six sequence in python. 
+
+list and tuple 
+
+#how to write custom sort in python for list 
 
 
 
+list -> this is the most used data type in python , it stores data item with comma separated between 
+        square brackets. 
+
+        no size 
 
 
  
