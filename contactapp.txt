@@ -1,0 +1,31 @@
+1. Add Contact 
+2. Search 
+3. remove Contact
+4. List 
+0. exit 
+
+
+1)
+name 
+contactNum
+city 
+email 
+
+2)
+search 
+ram , city , email 
+
+3)
+ram
+ram ram@gmail.com ayodhya 12345 
+sure?yes
+
+ravan
+1. ravan ravan@gmail.com
+2.  ravan ravan@lanka.com 
+
+which ravan you want to remove?
+2
+
+
+

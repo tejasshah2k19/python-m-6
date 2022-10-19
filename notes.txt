@@ -311,4 +311,81 @@ List:->
 
 
 
+###### tuple ###### 
+
+we can store n number of items in tuple 
+#once we define tuple we can't modify value of it. 
+#tuple is an ordered 
+it stores data item with comma separated between round brackets. 
+its only data type / collection in python that is read only. 
+
+data = (1,2,3,4)
+
+print(data)
+print(data[0])
+data[0] = 20 # not work 
+
+
+data = (1,2,3,4,5,6,1,2,3,4)
+
+1)create 1 def that accpets list of list [ list contains numbers] and return a list with common number 
+list = [ [1,2,3,4] , [1,2,3,4] , [2,3] , [2,3,4,5] ] 
+findDiff(list) [2,3]
+
+2) pair the brackets 
+    str = "()[]{}"  => valid 
+    str = "()" => valid 
+    str = "[]" => valid 
+    str = "[({})]"=> valid 
+    str = "[}]" => invalid 
+    str = "}" => invalid 
+    str = "(" => invalid 
+
+    def isValid(str):
+        return true 
+#####
+
+##### Set ####### 
+we can store n number itesm in set 
+
+list = [1,2,3]
+t = (1,2,3)
+s = {1,2,3}
+
+unordered 
+can't modify but you can add new item and you can also remove item 
+can not allow duplicate
+
+#### disctionary ### 
+we can store n number items in disctionary using curly brackets but we have key:value pari in data 
+
+user = {
+            "name":"ram",
+            "email":"ram@gmail.com",
+            "password":"1234"
+        }
+
+key is always unique
+value can be duplicate 
+
+python-> 3.6 unordered
+3.7+ -> ordered 
+
+print(user)
+print(user["email"])
+
+user["email"]="Ram123@gmail.com"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
