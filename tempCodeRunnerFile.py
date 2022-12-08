@@ -1,2 +1,3 @@
-c.sub()
-c.add()
+ users = cursor.fetchall() 
+     
+    print(users)  
