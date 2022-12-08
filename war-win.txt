@@ -1,0 +1,82 @@
+52 numbers deck 
+
+1           2
+26          26
+
+n numbers deck [ all numbers muse be positive ]
+masterDeck -> [1,13,12,15,2,13,14,22,52,36,22,12]
+
+
+playerA        
+1,12,2,14,52,22
+playerB
+13,15,13,22,36,12 
+
+
+playBattle
+battle =>  1,13
+
+playerA        
+12,2,14,52,22
+playerB
+15,13,22,36,12 
+
+playerB's card is higher than A , this battle winner playerB
+credit both the card from battle to playerB's deck 
+
+playerA        
+12,2,14,52,22
+playerB
+15,13,22,36,12,1,13  
+
+now next battle 
+
+battle=>12,15 
+
+playerA        
+2,14,52,22
+playerB
+13,22,36,12,1,13,12,15  
+
+battle => 2,13 
+
+playerA        
+14,52,22
+playerB
+22,36,12,1,13,12,15,2,13  
+
+draw ? 
+
+if playerA's card and playerB'card are same then its draw none of the player win 
+discard all cards from battle[] 
+and restart battle 
+
+battle[2,2]
+draw remove all cards from battle and play battle again 
+
+how to decide winner? 
+if any player's deck is empty that means he/she loose the game and 
+other player win 
+
+
+technical draw -> it's a limit , battler must not be exceed 1000 count
+    if battleCount > 1000 then declare technical draw 
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
